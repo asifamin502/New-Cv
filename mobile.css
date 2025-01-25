@@ -1,0 +1,239 @@
+
+
+    .fullcv{
+        max-width: 425px;
+        height: 896px;
+    }
+    .pi1{
+        height: 100%;
+        width: 35%;
+        left: 7%;
+
+    }
+
+    .up{
+height: 23%;
+
+    }
+
+    .name{
+top: 1%;
+left: 43%;
+font-size: 0.8rem;
+
+    }
+
+    .aboutme{
+        font-size: 0.7rem;
+top: 60%;
+width: 55%;
+left: 43%;
+font-size: 0.6rem;
+
+
+
+    }
+
+    .aboutme > h3{
+bottom: 70%;
+height: 2.5vh;
+
+    }
+
+    .aboutme .hr{
+        top: 2%;
+    }
+
+    .skills{
+left: 17%;
+font-size: 0.7rem;
+
+
+    }
+    .skills li{
+        font-size: 0.8rem;
+
+    }
+    .skills ol{
+ 
+ position: absolute;
+ top: 75%;
+
+
+    }
+    .skills .hr1{
+top: 60%;
+
+    }
+
+    .skills .s1::before{
+        width: 200%;
+        top: 20px;
+    }
+    
+    .skills .s1::after{
+        width: 0;
+        top: 20px;
+    }
+
+    .skills .s2::before{
+        width: 200%;
+        top: 65%;
+    }
+
+    .skills .s2::after{
+        width: 0;
+        top: 65%;
+    }
+
+    .skills .s3::before{
+        width: 200%;
+        top: 110%;
+    }
+
+    .skills .s3::after{
+        width: 0;
+        top: 110%;
+    }
+
+    @keyframes ani {
+
+0%{
+width: 0%;
+}
+100%{
+  width: 190%;
+}
+
+
+  
+}
+
+
+
+@keyframes ani2 {
+
+0%{
+width: 0%;
+}
+100%{
+  width: 160%;
+}
+
+
+  
+}
+
+
+@keyframes ani3 {
+
+0%{
+width: 0%;
+}
+100%{
+  width: 100%;
+}
+
+
+  
+}
+ 
+
+.language{
+    left: 17%;
+    top: 30%;
+    font-size: 0.7rem;
+}
+
+.language > ol{
+    position: absolute;
+    top: 90%;
+}
+
+.language .hr2{
+    top: 70%;
+}
+ .contract{
+    left: 35%;
+    font-size: 0.8rem;
+ }
+
+ .vr{
+ width: 33px;
+
+
+ }
+
+ .vr .pl{
+    height: 15px;
+    top: 3%;
+    left: 30%;
+
+
+ }
+
+ .vr .ll{
+    height: 17px;
+    top: 53%;
+    left: 30%;
+
+
+ }
+
+ .vr .el{
+    height: 15px;
+    top: 28%;
+    left: 30%;
+
+ }
+
+
+
+
+.cinfo > a{
+    font-size: 0.6rem;
+}
+
+.education{
+    font-size: 0.8rem;
+    left: 10%;
+}
+
+.education .hr2{
+    top: 10%;
+}
+
+.projects{
+    width: 100%;
+    
+    top: 55%;
+    left: 8%;
+    font-size: 0.6rem;
+}
+
+.projects > ol{
+
+top: 130%;
+width: 70%;
+
+}
+
+
+
+.projects .hr3{
+top: 70%;
+
+}
+
+.last{
+    font-size: 0.9rem;
+    height: 5vh;
+}
+
+.last1{
+display: inline-block;
+left: 75%;
+font-size: 0.6rem;
+
+
+}

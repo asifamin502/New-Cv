@@ -1,0 +1,584 @@
+*{
+    padding: 0;
+    margin 0;
+    box-sizing: border-box;
+}
+
+::selection{
+    color: orangered;
+    background-color: black;
+}
+
+body{
+    font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+
+
+
+}
+
+
+
+.fullcv{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    height: 750px ;
+    
+
+
+
+
+
+}
+
+
+
+.name{
+position: absolute;
+left: 330px;
+bottom: 180px;
+
+font-size: 1.1rem;
+letter-spacing: 3px;
+
+    
+}
+
+.name > h1{
+  font-size: 2.2rem;  
+
+
+}
+
+.name h2{
+background-color: orange;
+display: inline;
+position: absolute;
+top: 45px;
+
+
+
+}
+
+.aboutme{
+    position: absolute;
+width:40%;
+font-size: 1rem;
+left: 330px;
+height: 10vh;
+top: 140px;
+
+
+
+}
+
+
+.aboutme > h3{
+
+position: absolute;
+bottom: 40px;
+
+
+
+}
+
+.aboutme > p{
+    position: absolute;
+    top: 5px;
+}
+
+.aboutme .hr{
+    
+   
+    border: 3px solid orange;
+    border-radius: 5px;
+    position: absolute;
+    top: 9px;
+    width: 12%;
+    
+}
+
+
+
+
+.up{
+height: 290px;
+width: 100%;
+position: relative;
+background-color: rgb(242, 237, 237);
+display: flex;
+flex-direction: row;
+
+
+}
+
+.pi1{
+
+    height: 290px;
+    max-width: 225px;
+    position: absolute;
+    left: 90px;
+    
+
+}
+
+
+.twoside{
+    display: flex;
+    
+}
+
+
+
+
+
+
+.left{
+  width: 40%;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.829);
+position: relative;
+padding: 5px;
+}
+
+.contract{
+color: whitesmoke;
+position: absolute;
+top: 400px;
+left: 90px;
+
+
+
+
+}
+
+
+.contract > h2{
+position: absolute;
+top: 10px;
+left: 1px;
+
+
+
+}
+.cinfo{
+    position: absolute;
+    top: 70px;
+}
+
+.cinfo > a{
+color: rgb(88, 175, 88);
+text-decoration: none;
+font-size: 1.2rem;
+
+
+}
+
+.contract:hover{
+    color: rgb(93, 138, 25);
+    
+    
+    
+    }
+
+    .cinfo > a:hover{
+        color: whitesmoke;
+    }
+
+.hr1{
+    border: 3px solid orange;
+    border-radius: 5px;
+    position: absolute;
+    top: 44px;
+    width: 35%;
+}
+
+.hr2{
+    border: 3px solid orange;
+    border-radius: 5px;
+    position: absolute;
+    top: 52px;
+    width: 30px;
+   
+}
+
+
+.vr{
+    width: 45px;
+    height: 130px;
+    background-color: orange;
+    position: absolute;
+    top: 70px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.vr > .pl{
+    position: absolute;
+    bottom: 105px;
+    left: 15px; 
+ }
+
+.vr > .el{
+   position: absolute;
+   bottom: 57px;
+   left: 15px; 
+}
+
+.vr > .ll{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+
+
+}
+
+
+
+.skills{
+
+    color: whitesmoke;
+    position: absolute;
+    top: 5px;
+    left: 90px;
+    
+
+
+}
+
+.skills .s1::before{
+    content: '';
+    position: absolute;
+    top: 48%;
+    background-color: gray;
+    height: 5%;
+    width: 300%;
+    border-radius: 10px;
+}
+
+.skills .s1::after{
+    content: '';
+    position: absolute;
+    top: 48%;
+    left: 0%;
+    background-color: yellow;
+    height: 5%;
+    width: 0;
+    border-radius: 10px;
+
+    animation-timing-function: linear;
+    
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+
+    animation-name: ani; 
+    animation-fill-mode: forwards;
+    
+   
+    
+    
+}
+
+
+.skills .s2::before{
+    content: '';
+    position: absolute;
+    top: 72%;
+    background-color: gray;
+    height: 5%;
+    width: 300%;
+    border-radius: 10px;
+}
+
+.skills .s2::after{
+    content: '';
+    position: absolute;
+    top: 72%;
+    left: 0%;
+    background-color: yellow;
+    height: 5%;
+    width: 0;
+    border-radius: 10px;
+   
+   
+    animation-timing-function: linear;
+    
+    
+
+    animation-name: ani2; 
+    animation-fill-mode: forwards;
+
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    
+
+    
+
+}
+
+
+.skills .s3::before{
+    content: '';
+    position: absolute;
+    top: 95%;
+    background-color: gray;
+    height: 5%;
+    width: 300%;
+    border-radius: 10px;
+}
+
+.skills .s3::after{
+    content: '';
+    position: absolute;
+    top: 95%;
+    left: 0%;
+    background-color: yellow;
+    height: 5%;
+    
+   
+
+
+    width: 0;
+    border-radius: 10px;
+
+    animation-timing-function: linear;
+    
+    animation-duration: 3s;
+
+    animation-name: ani3; 
+    animation-fill-mode: forwards;
+
+    
+    animation-iteration-count: 2;
+
+}
+
+
+
+@keyframes ani {
+
+  0%{
+width: 0%;
+  }
+  100%{
+    width: 290%;
+  }
+  
+
+    
+}
+
+@keyframes ani2 {
+
+    0%{
+  width: 0%;
+    }
+    100%{
+      width: 260%;
+    }
+    
+  
+      
+  }
+
+  @keyframes ani3 {
+
+    0%{
+  width: 0%;
+    }
+    100%{
+      width: 150%;
+    }
+    
+  
+      
+  }
+
+
+
+
+.skills li{
+
+list-style-type: circle;
+font-size: 1.3rem;
+
+}
+
+.skills:hover{
+color: greenyellow;
+
+
+
+}
+
+
+.language{
+    color: whitesmoke;
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    font-size: 1.2rem;
+
+
+
+}
+
+.language .hr2{
+    position: absolute;
+    top: 55px;
+}
+
+.language li{
+    list-style-type: circle;
+
+
+
+
+}
+
+.language:hover{
+color: greenyellow;
+
+
+
+}
+
+
+
+
+
+
+.right{
+
+    width: 61%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.918);
+position: relative;
+color: whitesmoke;
+
+}
+
+.education{
+    
+   
+    position: absolute;
+    top: 5px;
+    left: 90px;
+    font-size: 1rem;
+
+
+
+}
+
+.education .hr2{
+position: absolute;
+top: 45px;
+
+}
+
+
+.education  ol{
+list-style-type: disc;
+
+
+}
+
+.education :hover{
+color: greenyellow;
+
+}
+
+
+.projects{
+position: absolute;
+top: 380px;
+left: 90px;
+
+
+    
+}
+
+    
+
+.projects > ol{
+    list-style-type: disc;
+    position: absolute;
+    top: 60%;
+}
+
+
+.hr3{
+    
+        border: 3px solid orange;
+        border-radius: 5px;
+        position: absolute;
+        top: 45px;
+        width: 80px;
+       
+    
+}
+
+.projects:hover{
+    color: greenyellow;
+    
+    }
+
+
+
+.last{
+    height: 70px;
+    background-color: black;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+
+.last a{
+
+    color: greenyellow;
+    text-decoration: none;
+    padding: 5px 5px;
+
+}
+
+.last1{
+position: absolute;
+top: 15px;
+left: 390px;
+
+}
+
+.last:hover{
+    color: whitesmoke;
+    
+    }
+    .last1 :hover{
+        color: greenyellow;
+        
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

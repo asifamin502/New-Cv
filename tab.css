@@ -1,0 +1,96 @@
+ /*for tab */
+
+    .aboutme > h3{
+        bottom: 74%;
+        
+    }
+    
+
+
+
+
+
+    
+    .skills .s1::before{
+            width: 150%;
+            top: 50%;
+        }
+        
+        .skills .s1::after{
+            width: 0;
+            top: 50%;
+        }
+    
+        .skills .s2::before{
+            width: 150%;
+            top: 70%;
+        }
+    
+        .skills .s2::after{
+            width: 0;
+            top: 70%;
+        }
+    
+        .skills .s3::before{
+            width: 150%;
+            top: 95%;
+        }
+    
+        .skills .s3::after{
+            width: 0;
+            top: 95%;
+        }
+    
+        @keyframes ani {
+    
+    0%{
+    width: 0%;
+    }
+    100%{
+      width: 135%;
+    }
+    
+    
+      
+    }
+    
+    
+    
+    @keyframes ani2 {
+    
+    0%{
+    width: 0%;
+    }
+    100%{
+      width: 110%;
+    }
+    
+    
+      
+    }
+    
+    
+    @keyframes ani3 {
+    
+    0%{
+    width: 0%;
+    }
+    100%{
+      width: 70%;
+    }
+    
+    
+      
+    }
+    
+    
+    
+    
+    
+    
+    .last1{
+    
+    left: 35%;
+    }
+    
+    /*media*/
